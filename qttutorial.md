@@ -1,6 +1,6 @@
 Qt install Tutorial for Comp 406 Project 2
 ===
-**Authors: Nick Young, Kush Patel**
+**Authors: Nick Young**
 
 **Date: 2024-03-11**
 
@@ -11,7 +11,7 @@ There are two different ways this tutorial is going to discuss using Qt.
 1. Qt creator
 2. Qmake
 
-I'm going to describe it for three platforms--Linux, Windows, and MacOS. Beyond that, I can't help you. If you want to do it on FreeBSD you already know what you're doing why are you reading this.
+I'm going to describe it for two platforms--Linux, and Windows. The steps for Windows and MacOS should be fairly similar but I haven't tested them yet.
 
 # Linux
 
@@ -23,7 +23,7 @@ These are the dependencies that should be needed for qt creator and qmake. Run t
 
 	sudo apt install qtbase5-dev qtbase5-dev-tools 
 
-I (Nick) pulled these from a [stackoverflow question](https://askubuntu.com/questions/1365515/how-to-install-qmake-compiler-on-ubuntu). If there are missing dependencies, look here first.
+I pulled these from a [stackoverflow question](https://askubuntu.com/questions/1365515/how-to-install-qmake-compiler-on-ubuntu). If there are missing dependencies, look here first.
 
 ## Qt creator
 
@@ -119,9 +119,19 @@ CONGRATS. You now have an open source installation of Qt creator.
 
 Qmake is installed alongside Qt Creator with the listed steps above.
 
-Now to add qmake to your path, follow [this tutorial on medium](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53) assuming the path for qmake is something like 
-    C:Qt\\Qt5.12.x\\mingw73_64\\bin\\qmake
+Now to add qmake to your path, follow [this tutorial on medium](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53) assuming the path for qmake is something like C:Qt\\Qt5.12.x\\mingw73_64\\bin\\qmake
 
-# MacOS
+Run 
 
-TODO
+    qmake
+
+in the directory with all your files. You should only need to do this when you update the headers of your gameboy.cpp file.
+
+Every time you want to compile from now on, run
+
+	make
+
+in the directory with all your files.
+
+CONGRATS. You now have qmake and don't have to screw around with Qt creator.
+
