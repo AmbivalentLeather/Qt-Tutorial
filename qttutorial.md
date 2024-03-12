@@ -4,6 +4,10 @@ Qt install Tutorial for Comp 406 Project 2
 
 **Date: 2024-03-11**
 
+**Document Version: 0.3**
+
+Please check the [github repo](https://github.com/AmbivalentLeather/Qt-Tutorial) for updates if anything with this document is innacurate.
+
 # The gist
 
 There are two different ways this tutorial is going to discuss using Qt.
