@@ -21,6 +21,8 @@ I'm going to describe it for two platforms--Linux, and Windows. The steps for Wi
 
 This part of the tutorial will assume you are using a Linux Mint Virtual Machine to install and use software. Version should not matter.
 
+If you need help getting a Linux Mint virtual machine set up, [see here](https://itsfoss.com/install-linux-mint-in-virtualbox/). I haven't gone through the tutorial myself but its probably correct.
+
 ## Dependencies
 
 These are the dependencies that should be needed for qt creator and qmake. Run this command and you should be good to go.
