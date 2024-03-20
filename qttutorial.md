@@ -2,11 +2,17 @@ Qt install Tutorial for Comp 406 Project 2
 ===
 **Authors: Nick Young**
 
-**Date: 2024-03-12**
+**Date: 2024-03-20**
 
-**Document Version: 0.4**
+**Document Version: 0.5**
 
 Please check the [github repo](https://github.com/AmbivalentLeather/Qt-Tutorial) for updates if anything with this document is innacurate or if your version is out of date.
+
+# Additional resources
+
+Before reading through all of this tutorial, its worth checking out the [Stanford website's](https://web.stanford.edu/dept/cs_edu/resources/qt/) resources on Qt Creator. It details how to install it on every platform, and how to use Qt Creator.
+
+If the tutorial below fails you, check theirs. They also support MacOS. Something I will not be doing.
 
 # The gist
 
